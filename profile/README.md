@@ -33,7 +33,7 @@ The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platfor
 
 **Beckn** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
 
-**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
+**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that has been adopted in order to facilitate transactions over the network.
 
 ### Subscription Process
 
@@ -48,7 +48,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
    After presenting a demo and receiving approval from the relevant team, follow the [outlined process](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md) to be added to the Pre-Prod registry. 
 3. **Production Registry**
-   Upon successfully completing functional testing and satisfying the final checklist in Pre-Production, an NP can transition to the the Production environment.
+   Upon successfully completing functional testing and satisfying the final checklist in Pre-Production, an NP can transition to the Production environment.
 
 ### Signing and Verification
 
@@ -97,10 +97,10 @@ Below are links to the comprehensive developer guide and model implementations f
   - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
 
       - `For On-demand Ride hailing, select version : draft-TRV10-2.0.0`
-      - `For Unreserved Ticket Booking (metro and intracity bus), select version : draft-TRV11-2.0.0`
+      - `For Unreserved Ticket Booking (metro and intra city bus), select version : draft-TRV11-2.0.0`
 
 
-- Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering home services like painting and consulations, etc.
+- Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering home services like painting and consultations, etc.
 
   - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications/tree/draft-services)
   - [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#)
@@ -109,7 +109,7 @@ Below are links to the comprehensive developer guide and model implementations f
 
   - Issue & Grievance Management (IGM) within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
     - [v1.0.0](https://docs.google.com/document/d/1UYGIo1fSOcA4ypnk5FuaCgUgNnu9dBQt/edit)
-  - Reconcillation and Settlement Framework (RSF) plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
+  - Reconciliation and Settlement Framework (RSF) plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
     - [v1.0.0](https://docs.google.com/document/d/1ubUPAWpbbUJ4vG2h5TQ74srZBjYjrO0P/edit)
   - Rating 
     - [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit)
@@ -146,11 +146,11 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - [NodeJS](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-sdk-nodejs)
   - [Python](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification)
   - [GoLang](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification/golang)
-- [Subcription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
+- [Subscription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
 - [Retail/IGM Log Verification](https://github.com/ONDC-Official/log-validation-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the Retail and IGM use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
-- [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
+- [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconciliation and Settlement Framework (RSF) , based on ONDC model implementation.
 
 </td>
 <td width="30%"  style="vertical-align: top;"><img src="profile/ONDC-Logo.png"></td>
