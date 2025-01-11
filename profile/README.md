@@ -54,7 +54,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
    After presenting a demo and receiving approval from the relevant team, follow the [outlined process](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md) to be added to the Pre-Prod registry. 
 3. **Production Registry**
-   Upon successfully completing functional testing and satisfying the final checklist in Pre-Production, an NP can transition to the the Production environment.
+   Upon successfully completing functional testing and satisfying the final checklist in Pre-Production, an NP can transition to the Production environment.
 
 ### Signing and Verification
 
@@ -117,7 +117,7 @@ It is important to implement **Catalog & Store Rejection Framework** for the **R
 
 
 - ### Services (SRV)
-  This domain empowers individuals to effortlessly access a diverse array of services, covering skilled services like **home painting, chefs and consulations, auction of agricultural outputs, leasing farming machinery and tools, soil testing, assaying services, lab testing, subscriptions**, etc.
+  This domain empowers individuals to effortlessly access a diverse array of services, covering skilled services like **home painting, chefs and consultations, auction of agricultural outputs, leasing farming machinery and tools, soil testing, assaying services, lab testing, subscriptions**, etc.
 
 | **Domain**   | **API Contract/ Developer Guide**                                                                                                                                                                                                                                                                                                                                                                | **Test Scenarios**                              | **Log Utility**                                      | **Mock Server/ Sandbox/ Reference Application** | **FAQs**                                                                                                                                               |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -130,9 +130,9 @@ It is important to implement **Catalog & Store Rejection Framework** for the **R
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Media, Entertainment, Content (MEC)** | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br> - [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media)  <br> - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/) | NA                                             | NA | NA | NA|
 
-- ### Ancilliary Services
+- ### Ancillary Services
   - **Issue & Grievance Management (IGM)** within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
-  - **Reconcillation and Settlement Framework (RSF)** plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
+  - **Reconciliation and Settlement Framework (RSF)** plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
   - **Rating**
   - **Score**
     
